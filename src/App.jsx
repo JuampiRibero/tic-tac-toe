@@ -62,8 +62,8 @@ const App = () => {
 
   return (
     <main className="board">
-      <h1 className="title">TIC TAC TOE</h1>
-      <button onClick={resetGame}>RESET</button>
+      <h1 className="title">TRES EN RAYA</h1>
+      <button onClick={resetGame}>REINICIAR</button>
       <Board board={board} updateBoard={updateBoard} />
       <Turn turn={turn} />
       <WinnerModal resetGame={resetGame} winner={winner} />
